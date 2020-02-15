@@ -4,8 +4,6 @@ Transferring knowledge among various environments is important to efficiently le
 
 ## **Running Examples**
 
----
-
 ### Simple Test
 
 The file *examples/all_examples.ipynb* provides 3 examples for various multi-task settings. The sample results are shown in the output of the code cells. 
@@ -23,8 +21,6 @@ Note that the number of runs are defined by the variable *RUNS* in the beginning
 The results will be stored in folders *results_maze* (or grid/var).  Once all runs are done, the plots of the results averaged over all runs can be found under the folder named "lifelong-xxxx_run${*RUNS*}". We already put some sample results under these 3 folders where the plots of one run are shown by the ".png" files.
 
 ## Additional Information
-
----
 
 Our implementation was modified from [simple_rl](<https://github.com/david-abel/simple_rl/tree/master/simple_rl>). 
 
