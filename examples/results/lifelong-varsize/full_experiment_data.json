@@ -1,0 +1,36 @@
+{
+    "MDP": {
+        "name": "<class 'simple_rl.mdp.MDPListClass.MDPList'>",
+        "params": {
+            "mdp_num": 20,
+            "horizon": 0
+        }
+    },
+    "AGENTS": {
+        "<class 'simple_rl.agents.QLearningAgentClass.QLearningAgent'>": {
+            "params": {
+                "alpha": 0.1,
+                "gamma": 0.95,
+                "epsilon": 0.1,
+                "anneal": false,
+                "explore": "uniform"
+            },
+            "index": 0
+        },
+        "<class 'simple_rl.agents.TabularRMaxAgentClass.TabularRMaxAgent'>": {
+            "params": {},
+            "index": 1
+        },
+        "<class 'simple_rl.agents.PatternLearningAgentClass.PatternLearningAgent'>": {
+            "params": {},
+            "index": 2
+        }
+    },
+    "MISC": {
+        "samples": 20,
+        "episodes": 5000,
+        "steps": 30,
+        "track_disc_reward": false
+    },
+    "FUNC": "run_agents_on_mdp"
+}

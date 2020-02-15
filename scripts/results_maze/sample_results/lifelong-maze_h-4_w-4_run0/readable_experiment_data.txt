@@ -1,0 +1,11 @@
+(MDP)
+	lifelong-maze_h-4_w-4
+(Agents)
+	Q-learning,0
+	RMax,1
+	TempLe,2
+(Params)
+	samples : 100
+	episodes : 5000
+	steps : 30
+	track_disc_reward : False

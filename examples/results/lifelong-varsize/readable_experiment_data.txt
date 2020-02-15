@@ -1,0 +1,11 @@
+(MDP)
+	lifelong-varsize
+(Agents)
+	Q-learning,0
+	RMax,1
+	TempLe,2
+(Params)
+	samples : 20
+	episodes : 5000
+	steps : 30
+	track_disc_reward : False
